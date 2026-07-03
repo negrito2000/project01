@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Black Cat</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Black Cat inicio">
+        <span class="brand-mark"></span>
+        Black Cat
+      </a>
+
+      <nav class="site-nav" aria-label="Navegación principal">
+        <a class="nav-link is-active" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About Me</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-content fade-in">
+          <p class="eyebrow">Elegancia nocturna</p>
+          <h1 id="hero-title">Black Cat</h1>
+          <p class="subtitle">
+            Misterioso, sereno y lleno de encanto: un tributo minimalista al gato negro.
+          </p>
+
+          <p id="cat-quote" class="quote" aria-live="polite">Elegancia en cada paso.</p>
+
+          <button id="quote-button" class="primary-button" type="button">
+            Revelar frase
+          </button>
+        </div>
+
+        <div class="hero-image-wrap fade-in" aria-label="Ilustración de un gato negro">
+          <img
+            class="hero-image"
+            src="image.jpg"
+            alt="Gato negro"
+          />
+        </div>
+      </section>
+
+      <section class="traits" aria-labelledby="traits-title">
+        <div class="section-heading">
+          <p class="eyebrow">Personalidad y encanto</p>
+          <h2 id="traits-title">Tres rasgos del gato negro</h2>
+        </div>
+
+        <div class="cards-grid">
+          <article class="trait-card">
+            <h3>Elegante</h3>
+            <p>Su silueta oscura destaca con una presencia tranquila y sofisticada.</p>
+          </article>
+
+          <article class="trait-card">
+            <h3>Misterioso</h3>
+            <p>El misterio también puede ser hermoso cuando camina con calma.</p>
+          </article>
+
+          <article class="trait-card">
+            <h3>Encantador</h3>
+            <p>Los gatos negros son símbolo de personalidad y encanto.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 Black Cat</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
